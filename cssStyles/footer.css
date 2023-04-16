@@ -1,0 +1,165 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+
+header{
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(204, 201, 212, 0.493) 0%, hwb(244 2% 39% / 0.541) 100%), url(../images/tec.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.head{
+  text-align: center;
+padding: 0;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: aliceblue;
+}
+
+.menu{
+  position: fixed;
+  
+  top: 30px;
+  right: 30px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.menu-navegacion{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 15vw;
+  height: 100%;
+  background-image: linear-gradient(135deg, #475699 0%, #000000 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: transform .3s ease-in-out;
+  transform: translate(110%);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.spread{
+  transform: translate(0);
+}
+
+.menu-navegacion a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.titulo{
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.copy{
+  font-weight: 300;
+  font-size: 35px;
+}
+
+.subtitulo{
+  text-align: center;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.number{
+  display: inline-block;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 700;
+  line-height: 30px;
+  margin-right: 5px;
+}
+
+footer{
+  background: #2213f5;
+  padding-bottom: 0.1px;
+}
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.contact-us{
+  width: 40%;
+  color: #fff;
+}
+
+.brand{
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.brand+p{
+  font-weight: 500;
+}
+
+.social-media{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media-icon{
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.social-media-icon:hover{
+  background: #fff;
+  color: #2213f5;
+}
+
+.social-media-icon i{
+  font-size: 30px;
+  line-height: 60px;
+}
+
